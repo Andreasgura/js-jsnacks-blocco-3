@@ -23,9 +23,25 @@ function array10Random() {
     return myArray;
 }
 
+let pluto = array10Random(2)
+// console.log(pluto)
+
+for (let index = 0; index < 5; index++) {
+    let newArray = array10Random();
+    console.log(newArray)
+}
 
 /*button.addEventListener('click', function(){
 
 });
-*/
 
+
+let myArray = [];
+    let newNum = 0 ;
+    for( i = 0; i < 10; i++){
+    newNum = getRndInteger(1, 100)
+    myArray.push(newNum)
+    }
+    console.log(myArray)
+
+    */
